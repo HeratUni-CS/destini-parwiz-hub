@@ -53,7 +53,7 @@ class _StoryPageState extends State<StoryPage> {
                 flex: 2,
                 child: TextButton(
                   style: TextButton.styleFrom(
-                    backgroundColor: Colors.red,
+                    backgroundColor: Color.fromARGB(255, 243, 20, 4),
                     elevation: 0,
                     shape: const RoundedRectangleBorder(
                       borderRadius: BorderRadius.all(Radius.circular(0)),
@@ -82,7 +82,7 @@ class _StoryPageState extends State<StoryPage> {
                   visible: storyBrain.buttonShouldBeVisible(),
                   child: TextButton(
                     style: TextButton.styleFrom(
-                      backgroundColor: Colors.blue,
+                      backgroundColor: Color.fromARGB(255, 4, 138, 248),
                       elevation: 0,
                       shape: const RoundedRectangleBorder(
                         borderRadius: BorderRadius.all(Radius.circular(0)),
